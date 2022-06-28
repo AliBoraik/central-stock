@@ -1,0 +1,26 @@
+# Gets all banks
+GET http://localhost:8091/central/bank
+
+### Get a single bank
+GET http://localhost:8091/central/bank/1
+
+### adds a bank
+POST http://localhost:8091/central/bank
+Content-Type: application/json
+
+{
+  "name": "VTB Bank",
+  "address": "Adelya Kutuya",
+  "country": "rudasds"
+}
+
+### update a bank
+PATCH http://localhost:8091/central/bank/1
+Content-Type: application/json
+
+{
+  "url": "https://www.apple.com"
+}
+
+###
+DELETE http://localhost:8091/central/bank/1
