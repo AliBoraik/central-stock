@@ -13,16 +13,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
-/**
- * Created by IntelliJ IDEA
- * Date: 25.05.2022
- * Time: 1:20 PM
- *
- * @author lordvidex
- * Name: Овамойо Олувадамилола Эванс
- * <p>
- * Desc:
- */
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {

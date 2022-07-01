@@ -10,16 +10,6 @@ import org.springframework.context.annotation.Configuration;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA
- * Date: 17.05.2022
- * Time: 11:30 PM
- *
- * @author lordvidex
- * Name: Овамойо Олувадамилола Эванс
- * <p>
- * Desc:
- */
 @Configuration
 public class SpringdocConfig {
     @Bean
